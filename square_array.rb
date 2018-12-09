@@ -11,4 +11,6 @@ end
 array = [1, 2, 3, 4, 5]
 a = array.collect {|num| num ** 2}
 
-puts a
+array.each do |num|
+  print num
+end
